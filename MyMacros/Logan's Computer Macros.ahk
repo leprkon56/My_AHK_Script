@@ -33,9 +33,9 @@
 
 	;Numpad6: Open Notepad
 
-	;Numpad7: Inserts leprkon56@gmail
+	;Numpad7: Inserts Email1
 
-	;Numpad8: Inserts Cornholiday@gmail
+	;Numpad8: Inserts Email2
 
 	;Numpad9: Run Overwatch (Best Game Ever)
 
@@ -108,13 +108,13 @@
 		Run C:\Program Files (x86)\Overwatch\Overwatch Launcher.exe
 		return
 
-;attempt for email input leprkon56@gmail.com & Cornholiday@gmail.com
+;attempt for email input
 	NumpadUp::
-		Send, Cornholiday@gmail.com
+		Send, Your Email 1
 		return
 
 	NumpadHome::
-		Send, leprkon56@gmail.com
+		Send, Your Email2
 		return
 
 ;fix for other macro not allowing mouse 4 to work properly
